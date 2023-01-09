@@ -1,7 +1,5 @@
-public class IncrementDemo
-{
-   public static void main(String[] args)
-   {
+public class IncrementDemo{
+   public static void main(String[] args){
       int myNumber, answer;
       myNumber = 17;
       System.out.println("Before incrementing, myNumber is " +

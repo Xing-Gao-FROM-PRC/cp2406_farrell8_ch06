@@ -1,8 +1,6 @@
 import java.util.Scanner;
-public class BankBalance
-{
-   public static void main(String[] args)
-   {
+public class BankBalance{
+   public static void main(String[] args){
       double balance;
       int response;
       int year = 1;
@@ -14,8 +12,7 @@ public class BankBalance
       System.out.print("Enter 1 for yes");
       System.out.print("   or any other number for no >> ");
       response = keyboard.nextInt();
-      while(response == 1)
-      {
+      while(response == 1){
          balance = balance + balance * INT_RATE;
          System.out.println("After year " + year + " at " +  INT_RATE +
              " interest rate, balance is $" + balance);
